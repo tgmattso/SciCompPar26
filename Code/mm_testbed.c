@@ -14,6 +14,12 @@
 **           matrix where we modify matrix elements by a progression
 **           of matrix index values.
 **
+**           To add a new case, follow the example of mm_ijk().
+**           Make sure your function matches the mm_ijk() argument
+**           list, adds its function prototype below, and then
+**           call it with mm_tst_cases() as shown near the end 
+**           of this file 
+**
 **  USAGE:   Run wtihout arguments to use default SIZE set in the
 **           mm_utils.h include file ... for example  
 **              mm_testbed
